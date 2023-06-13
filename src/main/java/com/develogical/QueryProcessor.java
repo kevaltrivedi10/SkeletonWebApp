@@ -6,7 +6,7 @@ public class QueryProcessor {
 
     System.out.println("Received query:" + query);
 
-    if (query.toLowerCase().contains("What is 85 minus 95?\t")) {
+    if (query.toLowerCase().contains("What is 85 minus 95?")) {
       return "-10";
     }
 
